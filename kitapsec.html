@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            border-style: solid;
+            border-color: rgb(146, 146, 146);
+            border-right-width: 300px;
+            border-left-width: 300px;
+            border-radius: 25px;
+        }
+        .ust {
+            width: 100%;     
+        }
+        .ust img{
+            width: 100%;
+            height: auto;
+        }
+        .sol img{
+            width: 100%;
+            height: auto;
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu {
+            background-color: #311a00;
+            display:flex;
+            align-items: center;
+            padding: 0;
+        }
+        .menu ul {
+            display: flex;
+            gap: 15px;
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            text-transform: uppercase;
+            padding: 10px;
+            display: block;
+        }
+        .kitap-listesi {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            gap: 10px;
+            justify-content: space-around;
+            padding: 10px;
+            border-style: solid;
+        }
+        .kitap-kart {
+            width: 15%;
+            text-align: center;
+            border-style: solid;
+        }
+        .kitap-baslik {
+            padding: 10px;
+            font-weight: bold;
+            border-style: solid;
+            background-color: #0073f7;
+            color: aliceblue;
+        }
+        .kitap-kart img {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .yazar-listesi {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            padding: 10px;
+            gap: 10px;
+            justify-content: space-around;
+            border-style: solid;
+        }
+        .yazar-kart {
+            width: 25%;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            border-style: solid;
+        }
+        .yazar-kart img{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="ust"><img src="logo.png"></div>
+
+<div style="display: flex; align-items: center; background-color: #311a00;">
+    
+    <div class="sol"><img src="ustlogo.png"></div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Kitap</a></li>
+            <li><a href="#">Kırtasiye</a></li>
+            <li><a href="#">Sepetim</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </div> 
+</div>
+<br><br>
+    <div style="border-style: solid; color: #311a00;">
+    <b>EN ÇOK SATANLAR</b>
+    </div>
+<div class="kitap-listesi">
+    <div class="kitap-kart">
+        <div class="kitap-baslik">Aşkımız Eski Bir Roman <br> Ahmet Ümit</div>
+        <img src="ahmet.jpg">
+    </div>
+
+    <div class="kitap-kart">
+        <div class="kitap-baslik">Kara Kutu Soner Yalçın <br> Kırmızı Kedi</div>
+        <img src="kara.jpg">
+    </div>
+
+    <div class="kitap-kart">
+        <div class="kitap-baslik">Kürk Mantolu Madonna <br> Sabahattin Ali</div>
+        <img src="kürk.jpg">
+    </div>
+
+    <div class="kitap-kart">
+        <div class="kitap-baslik">Şeker Portakalı Can <br> Yayınları</div>
+        <img src="seker.jpg">
+    </div>
+
+    <div class="kitap-kart">
+        <div class="kitap-baslik">Bir Ömür Nasıl Yaşanır <br> İlber Ortaylı</div>
+        <img src="omur.jpg">
+    </div>
+</div>
+<div style="border-style: solid;color: #311a00; text-align: left;">
+<b>YAZARLARIMIZ</b>
+</div>
+<div class="yazar-listesi">
+    <div class="yazar-kart">
+        <img src="dogan.jpg">
+        <div class="yazar-baslik"><div style="border-style: solid; background-color: #311a00; color: aliceblue;"><b>Doğan Cüceloğlu</b></div> <br>
+            Doğan Cüceloğlu’nun uzmanlık alanı algılama, öğrenme ve dil psikolojisidir. Türkçe ve İngilizce yayınlarının birçoğunu iletişim konusunda yapmıştır; bu yayınlar aynı toplumda yetişmiş insanlar arasındaki ilişkileri olduğu kadar, farklı toplum ve kültürlerde yetişmiş kişilerin iletişim ilişkilerini de kapsar.Doğan Cüceloğlu halen CSU'de görevlidir.
+        </div>
+    </div>
+    <div class="yazar-kart">
+        <img src="ali.jpg">
+        <div class="yazar-baslik"><div style="border-style: solid; background-color: #311a00; color: aliceblue;"><b>Sabahattin Ali</b></div> <br>
+        25 Şubat 1907’de Gümülcine’de doğdu, 2 Nisan 1948’de Kırklareli’nde öldü.1948’de bir yazısı yüzünden tutuklandı, üç ay kadar hapis yattı. Sürekli izlendiği için yurtdışına kaçmak istedi, ancak Kırklareli dolaylarında bir kaçakçı tarafından öldürüldüğü iddia edildi. Şiirler, hikâyeler, romanlar yazdı, çeviriler yaptı.
+</div>
+    </div>
+    <div class="yazar-kart">
+        <img src="peyami.jpg">
+        <div class="yazar-baslik"><div style="border-style: solid; background-color: #311a00; color: aliceblue;"><b>Peyami Safa</b></div> <br>
+            1949`da yayınlanan son eserlerinden "Matmazel Noraliya`nın Koltuğu"nda da tıp öğrenimi yaparken bunalıma girerek felsefeye yönelen ve sonuçta mistik dünya görüşünde karar kılan bir gencin öyküsünü anlattı. Edebiyat ve siyaset tartışmalarının hep içinde bulundu. Nâzım Hikmet, Nurullah Ataç, Zekeriya Sertel, Muhsin Ertuğrul, Aziz Nesin`le polemiklere girdi.
+        </div>
+    </div>
+    <div class="yazar-kart">
+        <img src="ayse.jpg">
+        <div class="yazar-baslik"><div style="border-style: solid; background-color: #311a00; color: aliceblue;"><b>Ayşe Kulin</b></div> <br>
+        Arnavutköy Amerikan Kız koleji Edebiyat Bölümü`nden mezun oldu. Cumhuriyet, Güneş ve Dünya gazetelerinde muhabirlik, çeşitli dergilerde yazarlık ve yazı işleri müdürlüğü yaptı. Uzun yıllar halkla ilişkiler uzmanı, televizyon, reklam ve sinema filmlerinde sahne yapımcısı, sanat yönetmeni ve senarist olarak çalıştı.</div>
+    </div>
+</div>
+
+</body>
+</html>
